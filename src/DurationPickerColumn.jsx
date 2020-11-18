@@ -296,7 +296,7 @@ function DurationPickerColumn(props) {
         <hr className="rdp-reticule" style={{ top: cellHeight * 2 - 1 }} />
         <div className="rdp-text-overlay" style={{ top: cellHeight }}>
           {`${toTwoDigitString(currentSelectionRef.current)}`}
-          <div>{isSmallScreen ? unit[0] : unit}</div>
+          <div className="rdp-unit">{isSmallScreen ? unit[0] : unit}</div>
         </div>
         <div
           className="rdp-column"
