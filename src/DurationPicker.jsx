@@ -61,14 +61,14 @@ function DurationPicker(props) {
     <div className="rdp-picker">
       <DurationPickerColumn
         onChange={onChangeHours}
-        unit="    hours"
+        unit="hours"
         maxHours={maxHours}
         isSmallScreen={isSmallScreen}
         initial={initialDuration.hours}
       />
       <DurationPickerColumn
         onChange={onChangeMinutes}
-        unit=" mins"
+        unit="mins"
         isSmallScreen={isSmallScreen}
         initial={initialDuration.minutes}
       />
